@@ -13,11 +13,5 @@
         "filesystem": "readonly"
     },
     "config": [
-        {
-            "key": "example.language-server-path",
-            "title": "Language Server Path",
-            "type": "path",
-            "placeholder": "/usr/local/bin/example"
-        }
     ]
 }
