@@ -1,0 +1,23 @@
+{
+    "identifier": "com.zwopple.typescript-lsp",
+    "name": "TypeScript-LSP",
+    "organization": "Zwopple Limited",
+    "description": "A TypeScript LSP extension for Nova code editor.",
+    "version": "1.0",
+    "categories": ["languages"],
+    
+    "main": "main.js",
+    
+    "entitlements": {
+        "process": true,
+        "filesystem": "readonly"
+    },
+    "config": [
+        {
+            "key": "example.language-server-path",
+            "title": "Language Server Path",
+            "type": "path",
+            "placeholder": "/usr/local/bin/example"
+        }
+    ]
+}
